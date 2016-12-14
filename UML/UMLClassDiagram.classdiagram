@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="89d76c5d-2020-4cfa-b256-a690d1d5f7aa" name="UMLClassDiagram" linkedPackageId="02bdf846-f0f5-46ce-ac9f-67128eb145bd" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="2df78d44-e4ce-4999-bb17-4f65fefdfbc3">
+      <profileInstance Id="ecd28a34-06d5-4bd1-a91f-07b1909e4ebb" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="92dcf0cc-2f64-49cd-a3e4-3a49a7f3513f">
+      <profileInstance Id="1bec5cc6-fa12-4dd0-9a83-30c046275838" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2d399b63-d9b7-4042-a96b-e9ae8fe2beaf" name="Mesh" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f2f624c6-d150-440a-9b55-f25b3c8318d7" />
+        <targetEnds>
+          <association Id="9ccc1e3a-05c1-4501-a45b-9bf0cd24e9eb" isDerived="false" sourceEndRoleName="Mesh" targetEndRoleName="Vertex" isLeaf="false" isAbstract="false">
+            <classMoniker Id="dba478ed-2d13-4c6c-a516-4242cf29cbf1" LastKnownName="Vertex" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a129ee1b-987f-43c7-88e8-ffeb8357a6f9" name="Mesh" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="99d89e07-3ee1-4710-8add-e09206744535" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6af384fb-50c9-4774-8d02-f9cceb7321c8" name="Vertex" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <lowerValueInternal>
+                    <literalString Id="8073323a-52be-4a5e-abca-256874b28f4e" name="Lower" value="0">
+                      <elementDefinition Id="c8d96fb4-d6fe-479c-a590-abcbe4e8358d" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="180557b2-22cb-4b53-be31-362bed5c2b68" name="Upper" value="*">
+                      <elementDefinition Id="8d93168e-0a5a-464b-a88c-a3490e75b5ac" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="195e30e0-bf83-4999-a9cc-b1e0805d276a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6e632eba-fbf3-425f-ba88-4e10df1723fd" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2e2ba35a-a3f1-48bf-b35a-6ddd84a38dea" name="Bone" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="917307b2-4223-4c4e-b781-ad6618030435" />
+        <targetEnds>
+          <association Id="a74981a2-587f-4b75-a543-e2334e297122" isDerived="false" sourceEndRoleName="Bone Enfant" targetEndRoleName="Bone Parent" isLeaf="false" isAbstract="false">
+            <classMoniker Id="2e2ba35a-a3f1-48bf-b35a-6ddd84a38dea" LastKnownName="Bone" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="36022ccb-1797-4cce-b647-117c6928e399" name="Bone Enfant" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5107f0fe-efb1-463c-9e01-1c0e1018e562" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0066bb1d-8d72-4f03-920a-35ca45e6dbe2" name="Bone Parent" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="12c79666-e6bd-4e6e-b3c1-fd5bb185ebb5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="11738a46-8c90-4d48-86f5-c3b5effc63ce" />
+          </association>
+          <association Id="e4720abf-d15b-456b-93b3-7295e302686d" isDerived="false" sourceEndRoleName="Bone" targetEndRoleName="Transform" isLeaf="false" isAbstract="false">
+            <classMoniker Id="c018dd49-c5c3-405c-ad89-b1acea88466a" LastKnownName="Transform" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c6e6692f-1374-4668-86b2-fa86ea6c63f0" name="Bone" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2a60b537-a5a4-4f5b-a484-1f7b07adc53d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6f37d687-e18d-486c-85b6-bdcca60cd6d0" name="Transform" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="2b30b949-2566-4bc2-920a-fa3261fd9402" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="89e91cdf-f941-4a49-a723-7bcb778c1d7e" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="7615a498-6989-45a6-91f6-bfd340eab77b" name="Skeleton" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6ca69906-d893-4c0f-a04a-3f23deb80fe6" />
+        <targetEnds>
+          <association Id="0361f8b2-831f-4695-a9c1-cbcd18892d89" isDerived="false" sourceEndRoleName="Skeleton" targetEndRoleName="Bone" isLeaf="false" isAbstract="false">
+            <classMoniker Id="2e2ba35a-a3f1-48bf-b35a-6ddd84a38dea" LastKnownName="Bone" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a60458d9-8941-4a28-a39a-c1994ab9efe2" name="Skeleton" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7de5cc60-2e83-45c4-918f-572127358c9b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="de3b9ecc-2ae8-4ba6-8074-b898c5be3fee" name="Bone" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <lowerValueInternal>
+                    <literalString Id="98d98e30-b264-43d3-9ae7-76f1bd3f8b9e" name="Lower" value="0">
+                      <elementDefinition Id="aa1c3a32-ff83-4641-8e5a-dec93cae4f5f" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="7f5f9aa9-dd09-453b-97d2-e5a1a7e6007b" name="Upper" value="*">
+                      <elementDefinition Id="14d8af42-3233-41bf-8623-783a91b49916" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="542c2329-87d4-4ea1-8949-bfc5ed213aff" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0223f4ec-1d2d-40eb-b5fc-47e4e1a2d9de" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="fc839188-9430-4b1b-aab6-5bfc7f4db623" name="Pose" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="bddba71d-710c-46a3-8378-771dbbcfb105" />
+        <targetEnds>
+          <association Id="44a91b06-f24a-4c75-99d1-44ea5e84e6b7" isDerived="false" sourceEndRoleName="Pose" targetEndRoleName="Skeleton" isLeaf="false" isAbstract="false">
+            <classMoniker Id="7615a498-6989-45a6-91f6-bfd340eab77b" LastKnownName="Skeleton" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ae47d42c-d7c2-49c2-8942-c84db221090a" name="Pose" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ab96c194-7268-4838-8a0e-e92464d5d206" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a7e2ba6a-a500-423d-a394-62e2abafe724" name="Skeleton" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="546078dc-adf1-446b-aba3-dc4af035b3c4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ca1b0fdd-d6b7-4963-8350-13bca255209d" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c018dd49-c5c3-405c-ad89-b1acea88466a" name="Transform" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="def0624b-ba81-4a05-a30e-0ce2bdd39d72" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3603b55c-eaad-4eb6-8e79-1fa7c74f25d4" name="Animation" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="248554cf-4006-4776-a6cd-c4f6ac479f33" />
+        <targetEnds>
+          <association Id="bb0232e6-aae6-479c-a35b-0f3941645dd2" isDerived="false" sourceEndRoleName="Animation" targetEndRoleName="Pose" isLeaf="false" isAbstract="false">
+            <classMoniker Id="fc839188-9430-4b1b-aab6-5bfc7f4db623" LastKnownName="Pose" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1cf090d9-e8b1-405f-9d6e-d70cc0b2d303" name="Animation" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a0089496-6d6d-4914-9a30-3399fb65150b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0cc6040b-26da-4824-b729-819d3641da6f" name="Pose" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <lowerValueInternal>
+                    <literalString Id="fe02a869-ea46-4dc4-81a2-d49d9a2a425b" name="Lower" value="1">
+                      <elementDefinition Id="34be43e8-f770-432b-8989-6b95b8937cee" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="7ed88619-175e-4d5c-9502-c58c48b07f18" name="Upper" value="1">
+                      <elementDefinition Id="877cd91d-5e3e-4f03-aa56-4f58542c2264" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="f6c210fe-247b-4d85-a84b-2ca67e615f0a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a6474b47-2696-4f80-bbed-45d3c2ad4e36" />
+          </association>
+          <association Id="e1155675-b3da-4d68-bb19-4486d137c9da" isDerived="false" sourceEndRoleName="Animation" targetEndRoleName="Track" isLeaf="false" isAbstract="false">
+            <classMoniker Id="f4644b01-ee03-4758-ade6-dd0f16343101" LastKnownName="Track" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d42c01d1-52ba-4c71-863c-3405d22bfbe2" name="Animation" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2664f158-3e45-4fa7-b179-977a8d4a4434" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dcd2676e-0782-4833-85c8-b59cc3c92d2f" name="Track" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <lowerValueInternal>
+                    <literalString Id="84961232-36df-4f3f-9f8a-fee667bbc72d" name="Lower" value="0">
+                      <elementDefinition Id="74c978b3-836d-4ffb-994c-dd9a85bc0e5d" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="e22ccedf-5d7d-4864-885e-5424f38d9224" name="Upper" value="*">
+                      <elementDefinition Id="9cda5258-24f9-43e2-8651-b00b9e674841" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="dfbd52be-8940-4c67-8656-16a27e86a006" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e1473d05-a6e4-4387-93b2-1d84dd2b39cc" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="aad7d39b-5dcf-4ca2-9f2d-de0299361ee7" name="AnimationModel" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b320d592-9c46-4eba-b168-32fd551d64f7" />
+        <targetEnds>
+          <association Id="49f8df9e-98ad-4567-9ae9-f2dea1407b50" isDerived="false" sourceEndRoleName="AnimationModel" targetEndRoleName="Skeleton" isLeaf="false" isAbstract="false">
+            <classMoniker Id="7615a498-6989-45a6-91f6-bfd340eab77b" LastKnownName="Skeleton" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d2b74bd3-67ed-4353-b3d5-e2356bf91d1a" name="AnimationModel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ea182e31-fbc3-42e7-a00d-7a9921c2a47d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4be4cb2d-f204-41ee-a0b1-785338eaf998" name="Skeleton" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="389c5760-d844-4431-8a67-0189e0ece4fa" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5f501c98-e44c-4a0a-bd91-1dd3fd5090ba" />
+          </association>
+          <association Id="62da4fe2-35b3-4fc1-884e-a28087a8807e" isDerived="false" sourceEndRoleName="AnimationModel" targetEndRoleName="Animation" isLeaf="false" isAbstract="false">
+            <classMoniker Id="3603b55c-eaad-4eb6-8e79-1fa7c74f25d4" LastKnownName="Animation" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="de93d9f6-6ff9-4ac0-b1c1-2252ce977b9b" name="AnimationModel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="36cefc38-2dff-41ae-8776-48c586bcd36f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="08aa04e5-63d4-4e02-8203-57bdbd538276" name="Animation" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <lowerValueInternal>
+                    <literalString Id="5e13f896-e0a0-41cf-b544-6bd60f1ac084" name="Lower" value="0">
+                      <elementDefinition Id="4099adf3-e23c-4263-b0af-1a8bcfdad541" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="e9a563fd-ce20-4089-9479-70dc2d3a61e2" name="Upper" value="*">
+                      <elementDefinition Id="1d04159e-12ee-43f3-9e73-ec2434653730" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="b2bbeccc-10a4-4ac3-bf99-1a40e4fbd8c1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2f6a35ae-db49-415f-aa20-545a6c464304" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3b1c8cd7-fe1e-4a30-bae4-d74833bd44c4" name="AnimationInstance" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0b14600f-3613-4872-b637-d7a3489b612f" />
+        <targetEnds>
+          <association Id="0cb1b993-6eb2-4d90-875c-3b044b7bad9d" isDerived="false" sourceEndRoleName="AnimationInstance" targetEndRoleName="AnimationControl" isLeaf="false" isAbstract="false">
+            <classMoniker Id="e9d9b542-f378-41d7-87f5-1c631fbb3450" LastKnownName="AnimationControl" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="173c59db-ad3b-4d31-9703-76c468a5821b" name="AnimationInstance" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="520c3cbe-96fc-4a11-90f0-b3126d6cc21e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dd045fda-410c-4752-b502-a6fb7923a974" name="AnimationControl" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <lowerValueInternal>
+                    <literalString Id="e3047da5-3b47-464f-bf89-7a7482c325d5" name="Lower" value="0">
+                      <elementDefinition Id="42c105d9-d904-49c1-84c3-4482213ac24f" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="9842fa62-119c-4d2c-991b-b00111160074" name="Upper" value="*">
+                      <elementDefinition Id="0bba1489-0e4b-4efa-aacc-058702339371" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="39b1c3b5-e2d8-4429-a5dd-8cb0e8ce3067" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c1786f70-f601-4fbc-bacf-9530286dd525" />
+          </association>
+          <association Id="c992a7da-a264-4638-8100-5196487bcf1a" isDerived="false" sourceEndRoleName="AnimationInstance" targetEndRoleName="AnimationModel" isLeaf="false" isAbstract="false">
+            <classMoniker Id="aad7d39b-5dcf-4ca2-9f2d-de0299361ee7" LastKnownName="AnimationModel" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="317a76fc-fce5-442c-a5aa-8c56f2bca986" name="AnimationInstance" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="cf21dafc-7ddd-44ef-871a-b2b0e70e04aa" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b06fec5d-32c0-4d28-a1eb-3da478a70313" name="AnimationModel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ae7db433-e0fd-459c-85fa-fcc9f5f95f7e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="23d54001-2faf-4a03-9abf-94f8b01bbcfc" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e9d9b542-f378-41d7-87f5-1c631fbb3450" name="AnimationControl" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9e7ecf93-be7c-449b-b1a5-ea5580c6c318" />
+        <targetEnds>
+          <association Id="ccd27be6-961c-45d8-921a-e17f4d63ec9e" isDerived="false" sourceEndRoleName="AnimationControl" targetEndRoleName="AnimationInstance" isLeaf="false" isAbstract="false">
+            <classMoniker Id="3b1c8cd7-fe1e-4a30-bae4-d74833bd44c4" LastKnownName="AnimationInstance" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5c4961d1-ff00-4119-b9a4-c1938c42fa07" name="AnimationControl" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="45b69049-6521-48f0-8a51-9168fd2e00bf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6d40afa7-a376-4ec6-9c9d-06481dc05b96" name="AnimationInstance" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0bdbf76b-e00e-4f56-8613-919ae422c88f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="04857b80-d646-4e93-a698-64924d9ceeb6" />
+          </association>
+          <association Id="ef3f09a2-7941-4970-8648-dd4046063b98" isDerived="false" sourceEndRoleName="AnimationControl" targetEndRoleName="Animation" isLeaf="false" isAbstract="false">
+            <classMoniker Id="3603b55c-eaad-4eb6-8e79-1fa7c74f25d4" LastKnownName="Animation" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b3308f80-fac3-4b8a-a8d5-99f2ae38bf8d" name="AnimationControl" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="de84c95e-8080-4626-afb3-7b94864916e2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dc1c0a70-d051-4a5d-8909-40fcb0d3bd22" name="Animation" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d6a6932c-2e59-417e-b17f-eef705034604" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="79e8a79d-9540-4cf3-8486-d9dac4e72fc9" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="893cb64b-ec8b-442c-884e-679ed1424ca8" name="AnimationManager" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="683286af-896a-4dcc-8801-54a1e66e9c0b" />
+        <targetEnds>
+          <association Id="7461ef05-2b88-48b2-9962-ea1c69da2d0f" isDerived="false" sourceEndRoleName="AnimationManager" targetEndRoleName="AnimationModel" isLeaf="false" isAbstract="false">
+            <classMoniker Id="aad7d39b-5dcf-4ca2-9f2d-de0299361ee7" LastKnownName="AnimationModel" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="54e5316d-58e7-4cfd-8ed2-5c4a72011c83" name="AnimationManager" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a8fbf60c-81eb-4280-ad20-149f92c35ebd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="83a99df3-a392-414a-a4ba-74b57a8816e6" name="AnimationModel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <lowerValueInternal>
+                    <literalString Id="46e621f9-6839-491a-ac91-412f96edcae4" name="Lower" value="0">
+                      <elementDefinition Id="9fde2c5e-bee6-4657-8adc-6d1c8a776bb7" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="2ba82026-24fc-4103-9975-81ece64b85ba" name="Upper" value="*">
+                      <elementDefinition Id="544b226d-da05-4c4d-83dd-e7ecb5c07df0" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="0227fecb-4301-4c64-861c-95ebae1a18be" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="65c2085b-befd-43fc-952d-42fa0449a619" />
+          </association>
+          <association Id="bdef0f74-7cd7-4e23-82bf-8beb8d12cab1" isDerived="false" sourceEndRoleName="AnimationManager" targetEndRoleName="AnimationInstance" isLeaf="false" isAbstract="false">
+            <classMoniker Id="3b1c8cd7-fe1e-4a30-bae4-d74833bd44c4" LastKnownName="AnimationInstance" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="eb70fecd-250e-4345-978b-16bac5336436" name="AnimationManager" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b28bbf48-882a-4a94-9483-df7a0642945d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1a205f87-56b0-44c7-9757-7549b332b885" name="AnimationInstance" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <lowerValueInternal>
+                    <literalString Id="63d2d670-5c3c-49cf-ad01-ac7fad7f19e6" name="Lower" value="0">
+                      <elementDefinition Id="e443ec2e-ce13-4ffc-91be-a089e4a199e0" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="345feb2d-92c1-4d32-86ac-fb23353f4f0d" name="Upper" value="*">
+                      <elementDefinition Id="94c30132-cb79-486d-acab-9a6c98ae2c4a" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="f19bfc48-1ca3-43da-aed9-217fed3483e1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5a1590f5-61f3-4e55-8a61-414104adef8a" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="dba478ed-2d13-4c6c-a516-4242cf29cbf1" name="Vertex" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e24c4cdc-7f5d-4c36-b006-bbf79bbdf931" />
+        <targetEnds>
+          <association Id="6b13d0bf-3d37-4478-a0c5-fbfe29a49c91" isDerived="false" sourceEndRoleName="Vertex" targetEndRoleName="Bone" isLeaf="false" isAbstract="false">
+            <classMoniker Id="2e2ba35a-a3f1-48bf-b35a-6ddd84a38dea" LastKnownName="Bone" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c1ca5f56-0b03-4994-b6bf-66d3e077fb43" name="Vertex" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a080350a-fd94-46a7-8eef-7b9023d1c749" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="df97596a-0895-4871-8966-fbb373bca550" name="Bone" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="32eefaf2-03d2-4247-80cd-80f3b6ffa5b7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="195fabec-ccc0-448e-82ed-d7d7d3d36a88" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f4644b01-ee03-4758-ade6-dd0f16343101" name="Track" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c3ccf925-6d81-42a4-9763-2e1b12f7c4e5" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="02bdf846-f0f5-46ce-ac9f-67128eb145bd" name="UML">
+    <elementDefinition Id="8d1fb0db-3655-4908-9639-2cf97a64b95b" />
+  </package>
+</logicalClassDesignerModel>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 11.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Génération de code/Journal de transformation de texte">
+  <MessageClass Name="Message" Label="Message" Option="Afficher les messages d'information" />
+  <MessageClass Name="Warning" Label="Avertissement" Option="Afficher les avertissements" />
+  <MessageClass Name="Error" Label="Erreur" Option="Afficher les erreurs" />
+  <MessageClass Name="Property" Label="Propriété" Option="Afficher les métadonnées" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Afficher les messages de diagnostic" />
+  <Message Timestamp="2015-01-09T11:54:26" Importance="High" Text="Génération du code ou transformation du texte démarrées." />
+  <Error Timestamp="2015-01-09T11:54:26" Importance="High" Text="Aucun modèle n'a été trouvé pour ce processus. Configurez les modèles en sélectionnant Configurer les paramètres de génération de code par défaut... depuis le menu Architecture, ou modifiez la sélection pour laquelle la génération de code est effectuée." />
+  <Message Timestamp="2015-01-09T11:54:26" Importance="Diagnostic" Text="La sélection comprenait 28 éléments qui n'étaient pas liés à un modèle." />
+  <Warning Timestamp="2015-01-09T11:54:26" Importance="Medium" Text="'UML::Vertex' -  (Class) : aucun modèle lié." />
+  <Message Timestamp="2015-01-09T11:54:26" Importance="Diagnostic" Text="'UML::' -  (Association) : aucun modèle lié." />
+  <Warning Timestamp="2015-01-09T11:54:26" Importance="Medium" Text="'UML::Mesh' -  (Class) : aucun modèle lié." />
+  <Warning Timestamp="2015-01-09T11:54:26" Importance="Medium" Text="'UML::AnimationManager' -  (Class) : aucun modèle lié." />
+  <Warning Timestamp="2015-01-09T11:54:26" Importance="Medium" Text="'UML::AnimationModel' -  (Class) : aucun modèle lié." />
+  <Message Timestamp="2015-01-09T11:54:26" Importance="Diagnostic" Text="'UML::' -  (Association) : aucun modèle lié." />
+  <Message Timestamp="2015-01-09T11:54:26" Importance="Diagnostic" Text="'UML::' -  (Association) : aucun modèle lié." />
+  <Message Timestamp="2015-01-09T11:54:26" Importance="Diagnostic" Text="'UML::' -  (Association) : aucun modèle lié." />
+  <Warning Timestamp="2015-01-09T11:54:26" Importance="Medium" Text="'UML::Skeleton' -  (Class) : aucun modèle lié." />
+  <Message Timestamp="2015-01-09T11:54:26" Importance="Diagnostic" Text="'UML::' -  (Association) : aucun modèle lié." />
+  <Message Timestamp="2015-01-09T11:54:26" Importance="Diagnostic" Text="'UML::' -  (Association) : aucun modèle lié." />
+  <Warning Timestamp="2015-01-09T11:54:26" Importance="Medium" Text="'UML::AnimationInstance' -  (Class) : aucun modèle lié." />
+  <Message Timestamp="2015-01-09T11:54:26" Importance="Diagnostic" Text="'UML::' -  (Association) : aucun modèle lié." />
+  <Message Timestamp="2015-01-09T11:54:26" Importance="Diagnostic" Text="'UML::' -  (Association) : aucun modèle lié." />
+  <Warning Timestamp="2015-01-09T11:54:26" Importance="Medium" Text="'UML::Pose' -  (Class) : aucun modèle lié." />
+  <Message Timestamp="2015-01-09T11:54:26" Importance="Diagnostic" Text="'UML::' -  (Association) : aucun modèle lié." />
+  <Message Timestamp="2015-01-09T11:54:26" Importance="Diagnostic" Text="'UML::' -  (Association) : aucun modèle lié." />
+  <Message Timestamp="2015-01-09T11:54:26" Importance="Diagnostic" Text="'UML::' -  (Association) : aucun modèle lié." />
+  <Warning Timestamp="2015-01-09T11:54:26" Importance="Medium" Text="'UML::Bone' -  (Class) : aucun modèle lié." />
+  <Message Timestamp="2015-01-09T11:54:26" Importance="Diagnostic" Text="'UML::' -  (Association) : aucun modèle lié." />
+  <Message Timestamp="2015-01-09T11:54:26" Importance="Diagnostic" Text="'UML::' -  (Association) : aucun modèle lié." />
+  <Warning Timestamp="2015-01-09T11:54:26" Importance="Medium" Text="'UML::Transform' -  (Class) : aucun modèle lié." />
+  <Message Timestamp="2015-01-09T11:54:26" Importance="Diagnostic" Text="'UML::' -  (Association) : aucun modèle lié." />
+  <Message Timestamp="2015-01-09T11:54:26" Importance="Diagnostic" Text="'UML::' -  (Association) : aucun modèle lié." />
+  <Warning Timestamp="2015-01-09T11:54:26" Importance="Medium" Text="'UML::AnimationControl' -  (Class) : aucun modèle lié." />
+  <Warning Timestamp="2015-01-09T11:54:26" Importance="Medium" Text="'UML::Animation' -  (Class) : aucun modèle lié." />
+  <Message Timestamp="2015-01-09T11:54:26" Importance="Diagnostic" Text="'UML::' -  (Association) : aucun modèle lié." />
+  <Warning Timestamp="2015-01-09T11:54:26" Importance="Medium" Text="'UML::Track' -  (Class) : aucun modèle lié." />
+  <Message Timestamp="2015-01-09T11:54:26" Importance="High" Text="Génération du code terminée. Erreurs : 1. Avertissements : 12." />
+</Log>

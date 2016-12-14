@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DirectXAnimDLL">
+      <UniqueIdentifier>{9922f8b7-021f-457a-b8d6-dc14d65900e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tinyxml2">
+      <UniqueIdentifier>{58c443a1-b3fd-47ea-9bbd-51b6dfca7c7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anim">
+      <UniqueIdentifier>{7f17c457-2113-4170-b67f-cc1c0969b1db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{aa615966-abc4-4da9-b748-e8ff27a2652f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>DirectXAnimDLL</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>DirectXAnimDLL</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXAnimDLL.h">
+      <Filter>DirectXAnimDLL</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>tinyxml2</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationInstance.h">
+      <Filter>Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationManager.h">
+      <Filter>Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationController.h">
+      <Filter>Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationModel.h">
+      <Filter>Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="Pose.h">
+      <Filter>Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="Bone.h">
+      <Filter>Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="Track.h">
+      <Filter>Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SubMesh.h">
+      <Filter>Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="dyn_list.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="dyn_array.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>DirectXAnimDLL</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>DirectXAnimDLL</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>tinyxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationManager.cpp">
+      <Filter>Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationModel.cpp">
+      <Filter>Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="Pose.cpp">
+      <Filter>Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="Bone.cpp">
+      <Filter>Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationInstance.cpp">
+      <Filter>Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationController.cpp">
+      <Filter>Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="Track.cpp">
+      <Filter>Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Clock.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SubMesh.cpp">
+      <Filter>Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="dyn_list.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="dyn_array.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

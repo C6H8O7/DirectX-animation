@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CreateDevice.cpp" />
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTriangle.cpp">
+      <Filter>DXObject</Filter>
+    </ClCompile>
+    <ClCompile Include="DXQuad.cpp">
+      <Filter>DXObject</Filter>
+    </ClCompile>
+    <ClCompile Include="DXPlane.cpp">
+      <Filter>DXObject</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTriangle3D.cpp">
+      <Filter>DXObject</Filter>
+    </ClCompile>
+    <ClCompile Include="DXCube.cpp">
+      <Filter>DXObject</Filter>
+    </ClCompile>
+    <ClCompile Include="DXCuboid.cpp">
+      <Filter>DXObject</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTerrain.cpp">
+      <Filter>DXObject</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>stdafx</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTriangle.h">
+      <Filter>DXObject</Filter>
+    </ClInclude>
+    <ClInclude Include="DXQuad.h">
+      <Filter>DXObject</Filter>
+    </ClInclude>
+    <ClInclude Include="DXPlane.h">
+      <Filter>DXObject</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTriangle3D.h">
+      <Filter>DXObject</Filter>
+    </ClInclude>
+    <ClInclude Include="DXCube.h">
+      <Filter>DXObject</Filter>
+    </ClInclude>
+    <ClInclude Include="DXCuboid.h">
+      <Filter>DXObject</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTerrain.h">
+      <Filter>DXObject</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>stdafx</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{97e233c8-122f-44d2-b34d-edc898976a17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite">
+      <UniqueIdentifier>{e7529d09-4757-46bb-a50b-5b7f7f2fa316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXObject">
+      <UniqueIdentifier>{5ff9bbfa-c3b6-4619-ba20-87dbf52960e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stdafx">
+      <UniqueIdentifier>{8cb0e5a8-c707-412f-9713-b8fe73ceb5db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
